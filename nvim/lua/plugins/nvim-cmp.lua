@@ -1,10 +1,12 @@
 return {
   {
     "hrsh7th/nvim-cmp",
+    opts = {},
   },
   {
     "hrsh7th/cmp-nvim-lsp",
-    dependencies = { "onsails/lspkind.nvim"}
+    opts = {},
+    dependencies = { "onsails/lspkind.nvim"},
   },
   {
     "hrsh7th/cmp-buffer",

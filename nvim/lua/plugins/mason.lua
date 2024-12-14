@@ -12,10 +12,11 @@ return {
     }
   },
   {
-    "williamboman/mason-lspconfig.nvim"
+    "williamboman/mason-lspconfig.nvim",
+    opts = {},
   },
   {
-    "neovim/nvim-lspconfig"
+    "neovim/nvim-lspconfig",
   },
 }
 
