@@ -1,6 +1,15 @@
 return {
   {
     "williamboman/mason.nvim",
+    lazy = true,
+    cmd = {
+      "Mason",
+      "MasonInstall",
+      "MasonUninstall",
+      "MasonUninstallAll",
+      "MasonLog",
+      "MasonUpdate",
+    },
     opts = {
        ui = {
           icons = {
@@ -13,10 +22,11 @@ return {
   },
   {
     "williamboman/mason-lspconfig.nvim",
-    opts = {},
+    lazy = true,
   },
   {
     "neovim/nvim-lspconfig",
+    lazy = true,
   },
 }
 
