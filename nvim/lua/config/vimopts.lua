@@ -26,4 +26,12 @@ opt.clipboard:append({ "unnamedplus" })
 
 -- Colorscheme
 cmd("colorscheme nightfox")
+cmd([[
+  highlight Normal guibg=none
+  highlight NonText guibg=none
+  highlight Normal ctermbg=none
+  highlight NonText ctermbg=none
+]])
 
+-- Set modifiable on
+opt.modifiable = true
