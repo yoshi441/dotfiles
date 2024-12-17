@@ -24,14 +24,9 @@ opt.hidden = true
 -- Clipboard sharing
 opt.clipboard:append({ "unnamedplus" })
 
--- Colorscheme
-cmd("colorscheme nightfox")
-cmd([[
-  highlight Normal guibg=none
-  highlight NonText guibg=none
-  highlight Normal ctermbg=none
-  highlight NonText ctermbg=none
-]])
+-- Enable true color
+opt.termguicolors = true
 
 -- Set modifiable on
 opt.modifiable = true
+
