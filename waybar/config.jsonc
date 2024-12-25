@@ -1,0 +1,33 @@
+{
+  // Bar config
+  "layer": "top",
+  "position": "top",
+  "height": 24,
+  "mode": "dock",
+
+  // Displayed modules
+
+  "modules-left": ["hyprland/workspaces", "mpris"],
+
+  "modules-center": ["memory", "hyprland/window", "cpu"],
+
+  "modules-right": [
+    "network",
+    "bluetooth",
+    "wireplumber",
+    "backlight",
+    "battery",
+  ],
+
+  // Modules settings
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "*": 5,
+    },
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": "",
+    },
+  },
+}
