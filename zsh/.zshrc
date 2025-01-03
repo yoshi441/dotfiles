@@ -3973,9 +3973,9 @@ unfunction grml_status_feature
 
 # Custom aliases
 alias la="eza --icons -aT"
-alias l=la
-alias ls=la
-alias ll=la
-alias lt=la
+alias l="eza --icons -T --git -L 2"
+alias ls=l
+alias ll=l
+alias lt="eza --icons -T --git -L 4"
 alias vim="nvim"
 alias vi="nvim"
