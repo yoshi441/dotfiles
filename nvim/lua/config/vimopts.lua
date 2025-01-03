@@ -30,3 +30,7 @@ opt.termguicolors = true
 -- Set modifiable on
 opt.modifiable = true
 
+-- Set leader keys
+vim.g.mapleader = " <Space> "
+vim.g.maplocalleader = "\\"
+
