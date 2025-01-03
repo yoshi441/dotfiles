@@ -3971,3 +3971,11 @@ unfunction grml_status_feature
 [[ -f /home/yoshi/.dart-cli-completion/zsh-config.zsh ]] && . /home/yoshi/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+# Custom aliases
+alias la="eza --icons -aT"
+alias l=la
+alias ls=la
+alias ll=la
+alias lt=la
+alias vim="nvim"
+alias vi="nvim"
