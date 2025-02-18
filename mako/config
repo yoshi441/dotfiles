@@ -1,0 +1,10 @@
+on-button-right=dismiss-all
+default-timeout=5000
+
+border-size=1
+border-color=#000034b0
+border-radius=15
+
+background-color=#7c7cff54
+
+
