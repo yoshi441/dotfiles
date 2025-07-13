@@ -3979,3 +3979,9 @@ alias ll=l
 alias lt="eza --icons -T --git -L 4"
 alias vim="nvim"
 alias vi="nvim"
+alias hx="helix"
+
+## for jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+eval "$(uv generate-shell-completion zsh)"
