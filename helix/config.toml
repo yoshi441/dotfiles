@@ -1,0 +1,23 @@
+theme = "nightfox"
+
+[editor]
+line-number = "relative"
+mouse = false
+cursorline = true
+true-color = true
+completion-replace = true
+
+[editor.indent-guides]
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+separator = "|"
+center = ["version-control"]
+
+[editor.file-picker]
+hidden = false
